@@ -40,3 +40,4 @@ htmlcov/
 # Environments
 .env
 .env.*
+wine3.xlsx
