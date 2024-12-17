@@ -8,7 +8,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 
 def create_parser():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description='Запуск сайта магазина с авторским вином, для запуска необходимо указать аргумент -f для пути к файлу эксель с данными о продукте')
     parser.add_argument('-f', '--filename', help='Путь к Excel файлу')
 
     return parser
